@@ -1,7 +1,8 @@
 
-let arr=[];
+
 
 async function image_meal() {
+    let arr=[];
     const input = document.getElementById("searchbox").value;
    // console.log(input);
     const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`);
